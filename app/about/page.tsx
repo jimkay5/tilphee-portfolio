@@ -1,6 +1,7 @@
 
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'About Boluwatife | Tilphee',
@@ -109,13 +110,26 @@ export default function AboutPage() {
               <span>01 / TILPHEE</span>
             </div>
 
-            <div className="portrait-monogram">
-              <span>B</span>
-              <i>.</i>
-            </div>
-
-            <div className="portrait-orbit portrait-orbit-one" />
-            <div className="portrait-orbit portrait-orbit-two" />
+            <div
+  style={{
+    width: '100%',
+    height: '420px',
+    position: 'relative',
+    overflow: 'hidden',
+  }}
+>
+  <Image
+    src="/images/profile.jpeg"
+    alt="Boluwatife Dorcas Oladapo"
+    fill
+    priority
+    sizes="(max-width: 768px) 100vw, 50vw"
+    style={{
+      objectFit: 'cover',
+      objectPosition: 'center 25%',
+    }}
+  />
+</div>
 
             <div className="portrait-bottom">
               <div>

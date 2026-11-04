@@ -2671,3 +2671,123 @@ h2 em {
     margin-top: 75px;
   }
 }
+
+/* =====================================
+   TILPHEE — IMPROVED TEXT READABILITY
+===================================== */
+
+/* Main explanatory paragraphs */
+.hero-lede,
+.intro-aside p,
+.beyond-content p,
+.section-heading > p,
+.approach-grid > div > p,
+.section-description,
+.cta-bottom p,
+.about-hero-lede,
+.about-intro-copy p,
+.about-focus-description,
+.certification-grid > div:first-child > p,
+.philosophy-bottom p,
+.about-cta-content p,
+.services-hero > p,
+.services-intro p,
+.services-process-heading p,
+.service-detail-main > p,
+.services-specialty > .section-shell > div > p:not(.small-overline),
+.projects-hero > p,
+.projects-intro p,
+.case-study-heading p,
+.case-study-details p,
+.case-study-bottom p,
+.projects-closing-bottom p,
+.approach-hero > p,
+.philosophy-copy p,
+.stages-heading p,
+.stage-content > p,
+.principle-inner > p,
+.approach-closing > p,
+.contact-intro,
+.contact-details > p:not(.eyebrow),
+.contact-bottom p {
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+/* Service and expertise card explanations */
+.service-card p,
+.expertise-card p,
+.project-card > p {
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+/* Smaller supporting information */
+.about-focus-details p,
+.service-features div,
+.service-outcome,
+.process-grid p,
+.stage-details span,
+.certificate-provider {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Contact form readability */
+.contact-form label {
+  font-size: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 15px;
+}
+
+.form-note {
+  font-size: 13px;
+}
+
+/* Mobile readability */
+@media (max-width: 650px) {
+  .hero-lede,
+  .intro-aside p,
+  .beyond-content p,
+  .section-heading > p,
+  .approach-grid > div > p,
+  .section-description,
+  .cta-bottom p,
+  .about-hero-lede,
+  .about-intro-copy p,
+  .about-focus-description,
+  .certification-grid > div:first-child > p,
+  .philosophy-bottom p,
+  .about-cta-content p,
+  .services-hero > p,
+  .services-intro p,
+  .services-process-heading p,
+  .service-detail-main > p,
+  .services-specialty > .section-shell > div > p:not(.small-overline),
+  .projects-hero > p,
+  .projects-intro p,
+  .case-study-heading p,
+  .case-study-details p,
+  .case-study-bottom p,
+  .projects-closing-bottom p,
+  .approach-hero > p,
+  .philosophy-copy p,
+  .stages-heading p,
+  .stage-content > p,
+  .principle-inner > p,
+  .approach-closing > p,
+  .contact-intro,
+  .contact-details > p:not(.eyebrow),
+  .contact-bottom p {
+    font-size: 15px;
+  }
+
+  .service-card p,
+  .expertise-card p,
+  .project-card > p {
+    font-size: 14px;
+  }
+}
