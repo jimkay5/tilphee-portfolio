@@ -15,7 +15,7 @@ const services = [
   {
     n: "03",
     title: "AI Voice Agents",
-    text: "Voice assistants that answer answer enquiry calls, collect caller information and help route prospective clients to agents.",
+    text: "Voice assistants that answer enquiry calls, collect caller information and help route prospective clients to agents.",
   },
   {
     n: "04",

@@ -8,8 +8,9 @@ const services = [
     description: 'Capture, organise and distribute property enquiries from multiple channels so potential clients are not overlooked.',
     features: [
       'Automated lead capture from websites and landing pages',
+      'WhatsApp enquiry and lead capture',
+      'Website form lead capture',
       'Facebook and Instagram lead capture',
-      'Website enquiry automation',
       'Automatic lead data collection and organisation',
       'Lead distribution to agents or sales representatives',
       'Centralised lead management',
@@ -125,7 +126,7 @@ const services = [
     title: 'AI Voice Agents',
     description: 'Use AI-powered voice agents to handle routine calls, respond to enquiries and help real estate teams stay responsive when agents are busy or unavailable.',
     features: [
-      'Answering incoming answer enquiry calls',
+      'Answering incoming enquiry calls',
       'Responding to frequently asked questions through voice',
       'Collecting caller details and property preferences',
       'Qualifying prospective buyers and tenants',
