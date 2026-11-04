@@ -125,7 +125,7 @@ const services = [
     title: 'AI Voice Agents',
     description: 'Use AI-powered voice agents to handle routine calls, respond to enquiries and help real estate teams stay responsive when agents are busy or unavailable.',
     features: [
-      'Answering incoming property enquiry calls',
+      'Answering incoming answer enquiry calls',
       'Responding to frequently asked questions through voice',
       'Collecting caller details and property preferences',
       'Qualifying prospective buyers and tenants',

@@ -61,7 +61,7 @@ const expertise = [
     number: "09",
     title: "AI Voice Agents",
     description:
-      "Developing voice assistants that answer property enquiry calls, respond to common questions, collect prospect details, qualify leads and help coordinate viewing requests.",
+      "Developing voice assistants that answer answer enquiry calls, respond to common questions, collect prospect details, qualify leads and help coordinate viewing requests.",
   },
 ];
 

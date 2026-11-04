@@ -8,7 +8,7 @@ export function SiteFooter() {
           <Link href="/" className="wordmark">
             tilphee<span>.</span>
           </Link>
-          <p>Thoughtful automation for better business operations.</p>
+          <p>Identify. Automate. Improve.</p>
         </div>
 
         <div>
