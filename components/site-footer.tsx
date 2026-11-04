@@ -1,5 +1,4 @@
-
-import Link from 'next/link';
+import Link from "next/link";
 
 export function SiteFooter() {
   return (
@@ -25,10 +24,24 @@ export function SiteFooter() {
         <div>
           <p className="footer-label">Get in touch</p>
           <div className="footer-links">
-            <a href="mailto:boluwatifedorcas42@gmail.com">Email Tilphee ↗</a>
-            <a href="https://instagram.com/tilphee" target="_blank" rel="noreferrer">Instagram ↗</a>
-            <a href="https://t.me/tilphee" target="_blank" rel="noreferrer">Telegram ↗</a>
-            <a href="https://facebook.com/tilphee" target="_blank" rel="noreferrer">Facebook ↗</a>
+            <a href="mailto:boluwatifedorcas42@gmail.com">Gmail ↗</a>
+            <a
+              href="https://instagram.com/tilphee"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram ↗
+            </a>
+            <a href="https://t.me/tilphee" target="_blank" rel="noreferrer">
+              Telegram ↗
+            </a>
+            <a
+              href="https://facebook.com/tilphee"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Facebook ↗
+            </a>
             <Link href="/contact">Contact page ↗</Link>
           </div>
         </div>

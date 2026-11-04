@@ -13,8 +13,8 @@ export default function ContactPage() {
         </h1>
         <p className="contact-intro">
           Have a process that takes too much time, leads slipping through the
-          cracks, or a business workflow ready for automation? Let’s talk about
-          what’s possible.
+          cracks, or a business workflow ready for automation? Let's talk about
+          what intelligent automation could make possible.
         </p>
       </section>
 
@@ -23,53 +23,62 @@ export default function ContactPage() {
           <p className="eyebrow">GET IN TOUCH</p>
           <h2>Tell me what you’re working on.</h2>
           <p>
-            Whether you’re in real estate or another industry, I’d love to hear
-            about your business and explore how AI automation can help.
+            I primarily help real estate professionals improve property
+            enquiries, lead management, client communication and everyday
+            operations through AI and automation. I also work with other
+            businesses where automation can improve their processes.
           </p>
 
           <div className="contact-method">
-  <span>LinkedIn</span>
-  <a
-    href="https://www.linkedin.com/"
-    target="_blank"
-    rel="noreferrer"
-  >
-    Connect with me
-  </a>
-</div>
+            <span>Gmail</span>
+            <a href="mailto:boluwatifedorcas42@gmail.com">
+              boluwatifedorcas42@gmail.com
+            </a>
+          </div>
 
-<div className="contact-method">
-  <span>Instagram</span>
-  <a
-    href="https://instagram.com/tilphee"
-    target="_blank"
-    rel="noreferrer"
-  >
-    @tilphee
-  </a>
-</div>
+          <div className="contact-method">
+            <span>LinkedIn</span>
+            <a
+              href="https://www.linkedin.com/in/boluwatife-oladapo-944043424/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Connect with me
+            </a>
+          </div>
 
-<div className="contact-method">
-  <span>Telegram</span>
-  <a
-    href="https://t.me/tilphee"
-    target="_blank"
-    rel="noreferrer"
-  >
-    @tilphee
-  </a>
-</div>
+          <div className="contact-method">
+            <span>Instagram</span>
+            <a
+              href="https://instagram.com/tilphee"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @tilphee
+            </a>
+          </div>
 
-<div className="contact-method">
-  <span>Facebook</span>
-  <a
-    href="https://facebook.com/tilphee"
-    target="_blank"
-    rel="noreferrer"
-  >
-    facebook.com/tilphee
-  </a>
-</div>
+          <div className="contact-method">
+            <span>Telegram</span>
+            <a
+              href="https://t.me/tilphee"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @tilphee
+            </a>
+          </div>
+
+          <div className="contact-method">
+            <span>Facebook</span>
+            <a
+              href="https://facebook.com/tilphee"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              facebook.com/tilphee
+            </a>
+          </div>
 
           <div className="contact-method">
             <span>Location</span>
@@ -78,17 +87,20 @@ export default function ContactPage() {
         </div>
 
         <form
-  className="contact-form"
-  action="https://api.web3forms.com/submit"
-  method="POST"
->
-  <input
-    type="hidden"
-    name="access_key"
-    value="7b7172b3-2ae1-40c8-917b-0e3b8c445357"
-  />
-  <input type="hidden" name="subject" value="New Tilphee Portfolio Enquiry" />
-          
+          className="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="7b7172b3-2ae1-40c8-917b-0e3b8c445357"
+          />
+          <input
+            type="hidden"
+            name="subject"
+            value="New Tilphee Portfolio Enquiry"
+          />
 
           <label htmlFor="name">Your name</label>
           <input

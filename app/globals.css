@@ -49,10 +49,12 @@ a {
   justify-content: space-between;
 }
 .wordmark {
-  font: 800 29px "Manrope", sans-serif;
+  font: 800 36px "Manrope", sans-serif;
   letter-spacing: -2px;
   color: var(--navy);
+  line-height: 1;
 }
+
 .wordmark span {
   color: var(--gold);
 }
@@ -60,7 +62,8 @@ a {
   display: flex;
   align-items: center;
   gap: 34px;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 600;
   color: #515a65;
 }
 .main-nav > a:not(.nav-cta):hover,
@@ -70,8 +73,9 @@ a {
 .nav-cta {
   background: var(--navy);
   color: white;
-  padding: 14px 19px;
-  font-size: 11px;
+  padding: 15px 21px;
+  font-size: 13px;
+  font-weight: 700;
   letter-spacing: 0.02em;
 }
 .nav-cta span,
@@ -156,10 +160,10 @@ h2 em {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 17px 21px;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+  padding: 18px 24px;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
   transition: transform 0.25s, background 0.25s;
 }
 .button:hover {
@@ -698,25 +702,41 @@ h2 em {
   color: #9ca7b4;
   margin-top: 16px;
 }
+
+.footer-brand .wordmark {
+  color: white;
+  font-size: 36px;
+  line-height: 1;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #b8c1cc;
+  margin-top: 18px;
+}
+
 .footer-label {
   color: var(--gold);
-  font-size: 8px;
+  font-size: 11px;
+  font-weight: 700;
   margin: 9px 0 19px;
 }
 .footer-links {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  font-size: 11px;
-  color: #c0c7d0;
+  gap: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #d0d6de;
 }
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.13);
-  padding-top: 20px;
+  padding-top: 22px;
   display: flex;
   justify-content: space-between;
-  color: #7f8b99;
-  font-size: 9px;
+  color: #aab4c0;
+  font-size: 12px;
 }
 @media (max-width: 900px) {
   .section-shell,
@@ -775,9 +795,10 @@ h2 em {
     padding: 10px;
   }
   .menu-toggle span {
-    width: 22px;
-    height: 1px;
+    width: 25px;
+    height: 2px;
     background: var(--navy);
+    border-radius: 2px;
   }
   .main-nav {
     display: none;
@@ -933,10 +954,10 @@ h2 em {
     gap: 25px;
   }
   .footer-main {
-    grid-template-columns: 1fr 1fr;
-    gap: 35px;
-    padding-bottom: 40px;
-  }
+  grid-template-columns: 1fr 1fr;
+  gap: 32px 24px;
+  padding-bottom: 40px;
+}
   .footer-brand {
     grid-column: 1/-1;
   }
@@ -1106,13 +1127,14 @@ h2 em {
 }
 
 .portrait-bottom strong {
-  font: 600 13px "Manrope", sans-serif;
+  font: 700 16px "Manrope", sans-serif;
   color: var(--navy);
 }
 
 .portrait-bottom div span {
-  color: #707780;
-  font-size: 9px;
+  color: #59616b;
+  font-size: 12px;
+  line-height: 1.5;
   margin-top: 6px;
 }
 
@@ -1331,10 +1353,10 @@ h2 em {
 .certificate-bottom {
   display: flex;
   justify-content: space-between;
-  color: #858c92;
-  font-size: 7px;
+  color: #69727c;
+  font-size: 10px;
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
 }
 
 .certificate-top {
@@ -1363,10 +1385,11 @@ h2 em {
 }
 
 .certificate-card > p {
-  color: var(--gold);
-  font-size: 8px;
-  font-weight: 700;
-  letter-spacing: 0.16em;
+  color: #8a6b32;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.6;
 }
 
 .certificate-card h3 {
@@ -2790,4 +2813,12 @@ h2 em {
   .project-card > p {
     font-size: 14px;
   }
+}
+
+
+.approach-cta {
+  font-size: 15px;
+  font-weight: 800;
+  padding: 20px 28px;
+  letter-spacing: 0;
 }

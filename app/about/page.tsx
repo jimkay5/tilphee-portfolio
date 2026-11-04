@@ -1,69 +1,73 @@
-
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import Image from 'next/image';
+import type { Metadata } from "next";
+import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: 'About Boluwatife | Tilphee',
+  title: "About Boluwatife | Tilphee",
   description:
-    'Meet Boluwatife Dorcas Oladapo, a Certified AI Automation Specialist helping businesses improve operations through intelligent automation.'
+    "Meet Boluwatife Dorcas Oladapo, a Certified AI Automation Specialist helping businesses improve operations through intelligent automation.",
 };
 
 const expertise = [
   {
-    number: '01',
-    title: 'AI Automation',
+    number: "01",
+    title: "AI Automation",
     description:
-      'Designing intelligent workflows that use AI to simplify suitable business tasks and processes.'
+      "Designing intelligent workflows that use AI to simplify suitable business tasks and processes.",
   },
   {
-    number: '02',
-    title: 'Business Process Automation',
+    number: "02",
+    title: "Business Process Automation",
     description:
-      'Reducing repetitive administrative work and improving the flow of everyday operations.'
+      "Reducing repetitive administrative work and improving the flow of everyday operations.",
   },
   {
-    number: '03',
-    title: 'Workflow Design & Integration',
+    number: "03",
+    title: "Workflow Design & Integration",
     description:
-      'Connecting applications and systems to create more organised, efficient workflows.'
+      "Connecting applications and systems to create more organised, efficient workflows.",
   },
   {
-    number: '04',
-    title: 'AI Agents & Business Assistants',
+    number: "04",
+    title: "AI Agents & Business Assistants",
     description:
-      'Building assistants that retrieve information, respond to enquiries and support business tasks.'
+      "Building assistants that retrieve information, respond to enquiries and support business tasks.",
   },
   {
-    number: '05',
-    title: 'Lead Management & Qualification',
+    number: "05",
+    title: "Lead Management & Qualification",
     description:
-      'Creating workflows that capture, organise, qualify and manage prospective clients.'
+      "Creating workflows that capture, organise, qualify and manage prospective clients.",
   },
   {
-    number: '06',
-    title: 'Customer Communication',
+    number: "06",
+    title: "Customer Communication",
     description:
-      'Streamlining enquiries, follow-ups, notifications and customer interactions.'
+      "Streamlining enquiries, follow-ups, notifications and customer interactions.",
   },
   {
-    number: '07',
-    title: 'Appointment Automation',
+    number: "07",
+    title: "Appointment Automation",
     description:
-      'Simplifying appointment requests, scheduling, confirmations and reminders.'
+      "Simplifying appointment requests, scheduling, confirmations and reminders.",
   },
   {
-    number: '08',
-    title: 'Application & System Integration',
+    number: "08",
+    title: "Application & System Integration",
     description:
-      'Helping information move between business applications with less manual intervention.'
-  }
+      "Helping information move between business applications with less manual intervention.",
+  },
+  {
+    number: "09",
+    title: "AI Voice Agents",
+    description:
+      "Developing voice assistants that answer property enquiry calls, respond to common questions, collect prospect details, qualify leads and help coordinate viewing requests.",
+  },
 ];
 
 export default function AboutPage() {
   return (
     <main className="about-page">
-
       {/* ABOUT HERO */}
       <section className="about-hero section-shell">
         <div className="about-hero-copy">
@@ -81,10 +85,9 @@ export default function AboutPage() {
           </h1>
 
           <p className="about-hero-lede">
-            I'm Boluwatife Dorcas Oladapo, a Certified AI Automation
-            Specialist focused on helping real estate professionals
-            and businesses improve how they operate through
-            intelligent automation.
+            I'm Boluwatife Dorcas Oladapo, a Certified AI Automation Specialist
+            focused on helping real estate professionals and businesses improve
+            how they operate through intelligent automation.
           </p>
 
           <div className="about-hero-actions">
@@ -111,30 +114,31 @@ export default function AboutPage() {
             </div>
 
             <div
-  style={{
-    width: '100%', 
-    height: '420px',
-    position: 'relative',
-    overflow: 'hidden',
-  }}
->
-  <Image
-    src="/images/profile.jpeg"
-    alt="Boluwatife Dorcas Oladapo"
-    fill
-    priority
-    sizes="(max-width: 768px) 100vw, 50vw"
-    style={{
-      objectFit: 'cover',
-      objectPosition: 'center 25%',
-    }}
-  />
-</div>
+              style={{
+                width: "100%",
+                height: "420px",
+                position: "relative",
+                overflow: "hidden",
+              }}
+            >
+              <Image
+                src="/images/profile.jpeg"
+                alt="Boluwatife Dorcas Oladapo"
+                fill
+                priority
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{
+                  objectFit: "cover",
+                  objectPosition: "center 25%",
+                }}
+              />
+            </div>
 
             <div className="portrait-bottom">
               <div>
                 <strong>Boluwatife Dorcas Oladapo</strong>
                 <span>Certified AI Automation Specialist</span>
+                <span>Real Estate AI & Automation</span>
               </div>
               <span className="portrait-index">T.</span>
             </div>
@@ -163,24 +167,22 @@ export default function AboutPage() {
 
           <div className="about-intro-copy">
             <p>
-              My work centres on understanding how businesses
-              operate, identifying repetitive tasks and recognising
-              opportunities where automation can make a meaningful
-              difference.
+              My work centres on understanding how businesses operate,
+              identifying repetitive tasks and recognising opportunities where
+              automation can make a meaningful difference.
             </p>
 
             <p>
-              My primary specialisation is AI automation for real
-              estate professionals. I explore ways to improve
-              property enquiries, lead management, client
-              communication and other everyday operations.
+              My primary specialisation is AI automation for real estate
+              professionals. I explore ways to improve property enquiries, lead
+              management, client communication and other everyday operations.
             </p>
 
             <p>
-              Beyond real estate, I also work with businesses across
-              different industries. Every business has its own
-              processes, challenges and priorities, and I believe
-              solutions should reflect those differences.
+              Beyond real estate, I also work with businesses across different
+              industries. Every business has its own processes, challenges and
+              priorities, and I believe solutions should reflect those
+              differences.
             </p>
           </div>
         </div>
@@ -196,6 +198,7 @@ export default function AboutPage() {
 
             <p className="small-overline">
               CERTIFIED AI AUTOMATION SPECIALIST
+              <span> | REAL ESTATE AUTOMATION</span>
             </p>
 
             <h2>
@@ -204,14 +207,13 @@ export default function AboutPage() {
             </h2>
 
             <p className="about-focus-description">
-              I approach automation as a business problem-solving
-              discipline. Before choosing a tool or designing a
-              workflow, I want to understand what needs to work
-              better and why.
+              I approach automation as a business problem-solving discipline.
+              Before choosing a tool or designing a workflow, I want to
+              understand what needs to work better and why.
             </p>
 
-            <Link href="/approach" className="button button-light">
-              Discover my approach <span>↗</span>
+            <Link href="/approach" className="button button-light approach-cta">
+              Discover My Approach <span>↗</span>
             </Link>
           </div>
 
@@ -247,9 +249,7 @@ export default function AboutPage() {
       <section className="about-expertise section-shell">
         <div className="section-heading">
           <div>
-            <div className="section-kicker">
-              03 / AREAS OF EXPERTISE
-            </div>
+            <div className="section-kicker">03 / AREAS OF EXPERTISE</div>
 
             <h2>
               The capabilities
@@ -259,9 +259,8 @@ export default function AboutPage() {
           </div>
 
           <p>
-            A combination of AI, automation, workflow design and
-            system integration skills used to address different
-            operational challenges.
+            A combination of AI, automation, workflow design and system
+            integration skills used to address different operational challenges.
           </p>
         </div>
 
@@ -284,9 +283,7 @@ export default function AboutPage() {
       <section className="about-certification">
         <div className="section-shell certification-grid">
           <div>
-            <div className="section-kicker">
-              04 / PROFESSIONAL CREDENTIALS
-            </div>
+            <div className="section-kicker">04 / PROFESSIONAL CREDENTIALS</div>
 
             <h2>
               Learning.
@@ -297,10 +294,9 @@ export default function AboutPage() {
             </h2>
 
             <p>
-              I believe professional growth involves continuously
-              developing technical knowledge, exploring new
-              possibilities and applying what I learn to practical
-              business challenges.
+              I believe professional growth involves continuously developing
+              technical knowledge, exploring new possibilities and applying what
+              I learn to practical business challenges.
             </p>
           </div>
 
@@ -310,17 +306,20 @@ export default function AboutPage() {
               <span>01</span>
             </div>
 
-            <div className="certificate-symbol">T.</div>
+            <h3>Certified AI Automation Specialist</h3>
+
+            <p>Cybervast AI Automation Program</p>
 
             <div className="certificate-rule" />
 
-            <p>PROFESSIONAL CERTIFICATION</p>
-
-            <h3>Certified AI Automation Specialist</h3>
-
-            <span className="certificate-provider">
-              Cybervast AI Automation Program
-            </span>
+            <a
+              href="/images/certificate.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button button-dark"
+            >
+              View Certificate <span>↗</span>
+            </a>
 
             <div className="certificate-bottom">
               <span>PROFESSIONAL DEVELOPMENT</span>
@@ -346,11 +345,10 @@ export default function AboutPage() {
             <span>MY PROFESSIONAL PHILOSOPHY</span>
 
             <p>
-              Not every challenge needs artificial intelligence.
-              Sometimes a straightforward automation or system
-              integration is the better answer. What matters is
-              finding a solution that genuinely works for the
-              business.
+              Not every challenge needs artificial intelligence. Sometimes a
+              straightforward automation or system integration is the better
+              answer. What matters is finding a solution that genuinely works
+              for the business.
             </p>
           </div>
         </div>
@@ -369,9 +367,9 @@ export default function AboutPage() {
 
           <div>
             <p>
-              Have an operational challenge you'd like to solve?
-              Let's talk about your business, your processes and
-              where intelligent automation could help.
+              Have an operational challenge you'd like to solve? Let's talk
+              about your business, your processes and where intelligent
+              automation could help.
             </p>
 
             <Link href="/contact" className="button button-dark">
@@ -380,7 +378,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
     </main>
   );
 }
