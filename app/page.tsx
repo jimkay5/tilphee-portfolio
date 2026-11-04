@@ -20,7 +20,7 @@ export default function Home() {
         <div className="eyebrow"><span className="eyebrow-line" /> CERTIFIED AI AUTOMATION SPECIALIST</div>
         <h1>Smarter workflows.<br /><em>Better</em> business<br />operations.</h1>
         <p className="hero-lede">I'm Boluwatife, a Certified AI Automation Specialist helping real estate professionals and businesses streamline their operations through intelligent automation and thoughtfully designed workflows.</p>
-        <div className="hero-actions"><a className="button button-dark" href="mailto:hello@tilphee.com?subject=Discovery%20Call%20Enquiry">Book a Discovery Call <span>↗</span></a><Link className="text-link" href="/projects">Explore my projects <span>→</span></Link></div>
+        <div className="hero-actions"><a className="button button-dark" href="mailto:boluwatifedorcas42@gmail.com?subject=Discovery%20Call%20Enquiry">Book a Discovery Call <span>↗</span></a><Link className="text-link" href="/projects">Explore my projects <span>→</span></Link></div>
         <div className="hero-note"><span className="note-dot" /> BUSINESS-FIRST. SOLUTION-LED. BUILT AROUND YOU.</div>
       </div>
       <div className="hero-visual" aria-label="Abstract illustration of connected business workflows">
@@ -52,6 +52,6 @@ export default function Home() {
 
     <section className="approach-section section-shell"><div className="section-kicker">06 / HOW I WORK</div><div className="approach-grid"><h2>The right automation starts with <em>understanding.</em></h2><div><p>Before recommending a tool or building a workflow, I want to understand the people, processes and priorities behind the business.</p><div className="approach-steps"><span>01&nbsp; Discover</span><span>02&nbsp; Assess</span><span>03&nbsp; Design</span><span>04&nbsp; Build & refine</span></div><Link href="/approach" className="underlined-link">Explore my approach <span>↗</span></Link></div></div></section>
 
-    <section className="final-cta"><div className="section-shell cta-inner"><div className="section-kicker light-kicker">HAVE A PROCESS IN MIND?</div><h2>Let's make your business<br /><em>work smarter.</em></h2><div className="cta-bottom"><p>Tell me what's taking too much time, creating friction or getting in the way. Let's explore what could work better.</p><a className="button button-gold" href="mailto:hello@tilphee.com?subject=Let's%20talk%20automation">Start a conversation <span>↗</span></a></div></div></section>
+    <section className="final-cta"><div className="section-shell cta-inner"><div className="section-kicker light-kicker">HAVE A PROCESS IN MIND?</div><h2>Let's make your business<br /><em>work smarter.</em></h2><div className="cta-bottom"><p>Tell me what's taking too much time, creating friction or getting in the way. Let's explore what could work better.</p><a className="button button-gold" href="boluwatifedorcas42@gmail.com?subject=Let's%20talk%20automation">Start a conversation <span>↗</span></a></div></div></section>
   </main>;
 }

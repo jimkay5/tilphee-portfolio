@@ -133,7 +133,7 @@ export default function ProjectsPage() {
               what an intelligent workflow could make possible.
             </p>
             <a
-              href="mailto:hello@tilphee.com?subject=Project%20Enquiry"
+              href="mailto:boluwatifedorcas42@gmail.com?subject=Project%20Enquiry"
               className="button button-gold"
             >
               Discuss a project <span>↗</span>

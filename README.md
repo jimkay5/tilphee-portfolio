@@ -20,7 +20,7 @@ A premium, responsive Next.js starter for Tilphee, the personal brand of Boluwat
 - Basic page metadata and Open Graph defaults
 
 ## Before launch
-- Replace `hello@tilphee.com` with the confirmed professional email.
+- Replace `boluwatifedorcas42@gmail.com` with the confirmed professional email.
 - Add Boluwatife's approved professional portrait and final logo.
 - Confirm official social profile URLs and booking link.
 - Add the remaining dedicated routes: `/about`, `/services`, `/projects`, `/approach`, `/contact` and dynamic project case studies.

@@ -112,7 +112,7 @@ export default function AboutPage() {
 
             <div
   style={{
-    width: '100%',
+    width: '100%', 
     height: '420px',
     position: 'relative',
     overflow: 'hidden',

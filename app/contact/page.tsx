@@ -28,20 +28,48 @@ export default function ContactPage() {
           </p>
 
           <div className="contact-method">
-            <span>Email</span>
-            <a href="mailto:hello@tilphee.com">hello@tilphee.com</a>
-          </div>
+  <span>LinkedIn</span>
+  <a
+    href="https://www.linkedin.com/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Connect with me
+  </a>
+</div>
 
-          <div className="contact-method">
-            <span>LinkedIn</span>
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Connect with me
-            </a>
-          </div>
+<div className="contact-method">
+  <span>Instagram</span>
+  <a
+    href="https://instagram.com/tilphee"
+    target="_blank"
+    rel="noreferrer"
+  >
+    @tilphee
+  </a>
+</div>
+
+<div className="contact-method">
+  <span>Telegram</span>
+  <a
+    href="https://t.me/tilphee"
+    target="_blank"
+    rel="noreferrer"
+  >
+    @tilphee
+  </a>
+</div>
+
+<div className="contact-method">
+  <span>Facebook</span>
+  <a
+    href="https://facebook.com/tilphee"
+    target="_blank"
+    rel="noreferrer"
+  >
+    facebook.com/tilphee
+  </a>
+</div>
 
           <div className="contact-method">
             <span>Location</span>
@@ -51,7 +79,7 @@ export default function ContactPage() {
 
         <form
           className="contact-form"
-          action="https://formsubmit.co/jimkay5565@gmail.com"
+          action="https://formsubmit.co/boluwatifedorcas42@gmail.com"
           method="POST"
         >
           <input type="hidden" name="_subject" value="New portfolio enquiry" />

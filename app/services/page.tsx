@@ -170,7 +170,7 @@ export default function ServicesPage() {
               smarter way forward.
             </p>
             <a
-              href="mailto:hello@tilphee.com?subject=Service%20Enquiry"
+              href="mailto:boluwatifedorcas42@gmail.com?subject=Service%20Enquiry"
               className="button button-gold"
             >
               Book a Discovery Call <span>↗</span>
