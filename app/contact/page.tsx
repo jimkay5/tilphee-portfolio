@@ -78,12 +78,17 @@ export default function ContactPage() {
         </div>
 
         <form
-          className="contact-form"
-          action="https://formsubmit.co/boluwatifedorcas42@gmail.com"
-          method="POST"
-        >
-          <input type="hidden" name="_subject" value="New portfolio enquiry" />
-          <input type="hidden" name="_captcha" value="true" />
+  className="contact-form"
+  action="https://api.web3forms.com/submit"
+  method="POST"
+>
+  <input
+    type="hidden"
+    name="access_key"
+    value="7b7172b3-2ae1-40c8-917b-0e3b8c445357"
+  />
+  <input type="hidden" name="subject" value="New Tilphee Portfolio Enquiry" />
+          
 
           <label htmlFor="name">Your name</label>
           <input
